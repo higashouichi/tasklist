@@ -11,7 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import modeles.Tasklist;
+import models.Tasklist;
 import utils.DBUtil;
 
 /**

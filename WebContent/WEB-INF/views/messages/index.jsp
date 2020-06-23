@@ -9,7 +9,7 @@
                     <a href="${pageContext.request.contextPath}/show?id=${tasklist.id}">
                         <c:out value="${tasklist.id}" />
                     </a>
-                  ：<c:out value="${message.title}"></c:out> &gt; <c:out value="${message.content}" />
+                  ：<c:out value="${tasklist.title}"></c:out> &gt; <c:out value="${tasklist.content}" />
                 </li>
             </c:forEach>
         </ul>
@@ -17,4 +17,4 @@
         <p><a href="${pageContext.request.contextPath}/new">新規登録</a></p>
 
     </c:param>
-</c:import>
+</c:import>as
